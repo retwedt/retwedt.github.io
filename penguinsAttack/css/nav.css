@@ -1,0 +1,125 @@
+/*nav.css*/
+/*  styles for Penguins attack header, navigation bar, and drop-down menu*/
+
+
+
+#top-bar {
+	/*background-color: #EBFFFF;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8f8ff+1,c8ebf4+100 */
+	background: #e8f8ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e8f8ff 1%, #c8ebf4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e8f8ff), color-stop(100%,#c8ebf4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e8f8ff 1%,#c8ebf4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e8f8ff 1%,#c8ebf4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e8f8ff 1%,#c8ebf4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e8f8ff 1%,#c8ebf4 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8f8ff', endColorstr='#c8ebf4',GradientType=0 ); /* IE6-9 */
+
+	height: 140px;
+	min-width: 1150px;
+
+	width:100%
+}
+
+#header-wrapper {
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	min-width: 1050px;
+	position:relative;
+	z-index: 5;
+}
+
+#logo {
+	display: inline-block;
+	width: 270px;
+	vertical-align: 100%;
+	top-margin: 40px;
+}
+
+
+
+/*  styles for navigation bar  */
+nav {
+	color: #fff;
+	display: inline-block;
+	margin-left:200px;
+	margin-top:84px;
+	min-width: 500px;
+	vertical-align: top;
+/*	float:right;
+*/	overflow: hidden;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav > ul > li > a {
+	color: #145252;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+}
+
+nav > ul > li:hover {
+	background-color: #5C8A8A;
+}
+
+nav > ul > li:hover > a {
+	color: rgb( 255, 255, 255 );
+}
+
+nav > ul > li > a > .marker {
+	border-top: 4px solid #fff;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+}
+
+nav > ul > li:hover > a > .marker {
+	border-top-color: rgb( 255, 255, 255 );
+}
+
+nav > ul > li > div {
+	background-color: #5C8A8A;
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	width: 165px;
+	visibility: hidden;
+}
+
+nav > ul > li:hover > div {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+nav > ul > li > div ul > li {
+	display: block;
+	position: relative;
+}
+
+nav > ul > li > div ul > li > a {
+	color: #fff;
+	display: block;
+	padding: 12px 24px;
+	text-decoration: none;
+}
+
+nav > ul > li > div ul > li:hover > a {
+	background-color: #2E4545;
+}
