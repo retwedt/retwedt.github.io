@@ -173,11 +173,13 @@ nav ul {
 #home-img-link-mobile {
 	display:inline-block;
 	width:80px;
+	vertical-align: middle;
 }
 
 #title-link-mobile {
 	display:inline-block;
 	width:200px;
+	vertical-align: middle;
 }
 
 .panel-collapse .panel-body:hover{
@@ -229,19 +231,20 @@ nav ul {
 @media (max-width: 770px) {
 	.panel-default{min-height:130px;}
 	#home-img{width:80px; height:auto;}
-	#title{font-size:20px;}
+	h1{font-size:20px;}
+	h2{font-size:16px;}
 }
 
 @media (min-width: 771px) {
 	.panel-default{min-height:530px;}
 	#home-img{width:160px; height:auto;}
-	#title{font-size:24px;}
+	h1{font-size:24px;}
 }
 
 @media (min-width: 995px) {
 /*	.panel{padding-left: 40px;}
 */	#home-img{width:160px; height:auto;}
-	#title{font-size:24px;}
+	h1{font-size:24px;}
 }
 
 

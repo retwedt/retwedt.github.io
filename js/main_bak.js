@@ -6,7 +6,7 @@ var homeURL = "htmlContent/home.html";
 
 //*******************get dom elements*******************
 //button elements
-var homeImg = document.getElementById("homeImg");
+var homeImg = document.getElementById("home-img");
 var title = document.getElementById("title");
 
 
@@ -30,13 +30,6 @@ window.onload = function() {
  		var url = parseURL();
  		loadPage(url, false);
 
- 		//add click events to buttons
-		addClicker(aboutLink);
-		addClicker(newsLink);
-		// addClicker(projectsLink, null, null);
-		// addClicker(galleryLink, null, null);
-		addClicker(contactLink);
-
 		window.addEventListener("popstate", function(e) {
 	 		var url = parseURL();
 	 		loadPage(url, false);
@@ -44,8 +37,6 @@ window.onload = function() {
 		, false);
 	}
 }
-
-
 
 
 
@@ -91,25 +82,5 @@ function parseURL(){
     	var newURL = "htmlContent/" + newHash + ".html";
     	return newURL;
 }
-
-
-// add event listener to html element to load page when clicked on
-function addClicker(element) {
-  	element.addEventListener("click", function(e) {
-  		e.preventDefault();
-	     	var pushURL = element.id;
-	    	pushURL = pushURL.slice(0, -4);
-	    	var hash = pushURL;
-	    	hash = "#" + hash;
-	    	pushURL = "htmlContent/" + pushURL + ".html";
-
-	    	// var fullURL = window.location.protocol + "//" + window.location.hostname + "/" + hash;
-	    	var fullURL = window.location.protocol + "//" + window.location.hostname + "/" + "rextwedt.com/" + hash;
-
-	     	loadPage(pushURL, true);
-	     	history.pushState(" ", null, fullURL);
-	}, true);
-}
-
 
 
