@@ -114,10 +114,12 @@ function addClicker(element) {
 		//if there is no href, the user is trying to go home
 		if (index<0){
 			pushURL = "home";
-			var fullURL = window.location.protocol + "//" + window.location.hostname + "/" + "rextwedt.com/";
+			// var fullURL = window.location.protocol + "//" + window.location.hostname + "/" + "rextwedt.com/"; //for local testing
+			var fullURL = window.location.protocol + "//" + window.location.hostname + "/"; //for server
 		} else {
 			pushURL = pushURL.slice(index+1);
-			var fullURL = window.location.protocol + "//" + window.location.hostname + "/" + "rextwedt.com/#" + pushURL;
+			// var fullURL = window.location.protocol + "//" + window.location.hostname + "/" + "rextwedt.com/#" + pushURL; //for local testing
+			var fullURL = window.location.protocol + "//" + window.location.hostname + "/#" + pushURL; //for server
 		}
 
 		//if user clicks on projects or gallery button or mobile menu button, cancel the ajax call, you don't want to load these pages!
