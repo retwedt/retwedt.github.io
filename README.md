@@ -1,5 +1,4 @@
-Rex Twedt's Website
-=================
+# Rex Twedt's Website
 
 This website was built to function as a single page web app, using AJAX to provide a smooth transition between content and a seamless user experience.  Several additional tools for convenient modern web development were used:
 
@@ -8,8 +7,7 @@ This website was built to function as a single page web app, using AJAX to provi
 -	[Bootstrap Dropdown Hover plugin](https://github.com/CWSpear/bootstrap-hover-dropdown) - plug-in to allow Bootstrap dropdown menus to activate on hover 
 -	[Fancybox](http://fancybox.net/) - library for displaying images, html content and multi-media using a lightbox overlay
 
-Directory Structure
--------------------
+## Directory Structure
 
 ```
 ├── css/
@@ -26,8 +24,7 @@ Directory Structure
 └── README.md
 ```
 
-Previous Versions
-=================
+## Previous Versions
 
 Version 1 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-1.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-1)\]
 
