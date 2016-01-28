@@ -1,4 +1,5 @@
-# CHANGELOG for www.rextwedt.com
+# CHANGELOG
+## for www.rextwedt.com
 
  - 2015-08-25 - Update JS to add click event listener to each nav link on page.  AJAX calls are now made from the click event for links, and from the popstate event for browser changes.  Update h1 and h2 formatting for desktop and mobile.  Mobile panels now close automatically when a new page is loaded.
  - 2015-08-24 - Update menu order.  Minor formatting changes.  Mobile menu Projects and Gallery dropdowns can now only be open 1 at a time (accordion style), add CHANGELOG!  Switch hosting from GoDaddy to GitHub, redirect using custom domain.
