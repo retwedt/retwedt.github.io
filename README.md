@@ -13,9 +13,9 @@ This website was built to function as a single page web app, using AJAX to provi
 ├── css/
 ├── htmlContent/        # html fragments inserted into index.html via AJAX
 ├── img/
-	└── fancybox/
-	└── gallery/
-	└── projects/
+  └── fancybox/
+  └── gallery/
+  └── projects/
 ├── js/
 ├── index.html
 ├── CNAME               # hosted at www.rextwedt.com
@@ -28,12 +28,12 @@ This website was built to function as a single page web app, using AJAX to provi
 
 Version 1 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-1.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-1)\]
 
--	[Lightbox](http://lokeshdhakar.com/projects/lightbox2/)
--	[Infinite Scroller](https://github.com/mcnitt/jquery-infinite-rotator)
+-  [Lightbox](http://lokeshdhakar.com/projects/lightbox2/)
+-  [Infinite Scroller](https://github.com/mcnitt/jquery-infinite-rotator)
 
 Version 2 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-2.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-2)\]
 
--	[Lytebox](http://lytebox.com/howTo.php)
--	[Pretty Photo](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/)
+-  [Lytebox](http://lytebox.com/howTo.php)
+-  [Pretty Photo](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/)
 
 
