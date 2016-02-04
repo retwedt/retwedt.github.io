@@ -36,4 +36,10 @@ Version 2 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/
 -  [Lytebox](http://lytebox.com/howTo.php)
 -  [Pretty Photo](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/)
 
+Version 3 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-3.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-3)\]
+
+-	[JQuery](https://jquery.com/)
+-	[Bootstrap](http://getbootstrap.com/)
+-	[Bootstrap Dropdown Hover plugin](https://github.com/CWSpear/bootstrap-hover-dropdown)
+-	[Fancybox](http://fancybox.net/)
 
