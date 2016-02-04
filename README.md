@@ -26,17 +26,17 @@ This website was built to function as a single page web app, using AJAX to provi
 
 ## Previous Versions
 
-Version 1 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-1.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-1)\]
+Version 1 \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-1)\]
 
 -  [Lightbox](http://lokeshdhakar.com/projects/lightbox2/)
 -  [Infinite Scroller](https://github.com/mcnitt/jquery-infinite-rotator)
 
-Version 2 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-2.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-2)\]
+Version 2 \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-2)\]
 
 -  [Lytebox](http://lytebox.com/howTo.php)
 -  [Pretty Photo](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/)
 
-Version 3 \[[download zip](https://github.com/retwedt/retwedt.github.io/archive/version-3.zip)] \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-3)\]
+Version 3 \[[link](https://github.com/retwedt/retwedt.github.io/tree/version-3)\]
 
 -	[JQuery](https://jquery.com/)
 -	[Bootstrap](http://getbootstrap.com/)
