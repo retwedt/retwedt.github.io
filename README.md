@@ -15,6 +15,5 @@ Welcome to www.rextwedt.com!
 ├── index.html
 ├── CNAME               # hosted at www.rextwedt.com
 ├── LICENSE             # MIT license
-├── CHANGELOG.md
 └── README.md
 ```
