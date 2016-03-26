@@ -7816,7 +7816,7 @@ button.close {
 .navbar-brand #title {
   display: inline-block;
   vertical-align: top;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .navbar-brand #title h1 {
@@ -7925,14 +7925,9 @@ button.close {
   }
 }
 
-/* GALLERY SETTINGS */
-.gallery-wrapper {
-  width: 100%;
-}
-
-.img-bg, .about-img-bg, .img-bg-1-1, .img-bg-2-1, .img-bg-4-1 {
+/* DEFAULT IMAGE BACKGROUND SETTINGS */
+.img-bg, .home-img-bg, .about-img-bg, .gallery-img-bg, .gallery-img-bg-1, .gallery-img-bg-2, .gallery-img-bg-4 {
   background: #04171D;
-  margin: 10px auto 10px auto;
   /* rounded corners */
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -7942,32 +7937,21 @@ button.close {
   box-shadow: 2px 2px 2px #3B473D;
 }
 
-.img-bg .set .single, .about-img-bg .set .single, .img-bg-1-1 .set .single, .img-bg-2-1 .set .single, .img-bg-4-1 .set .single {
-  display: inline-block;
-  width: 140px;
-  height: 140px;
-  overflow: hidden;
-  margin: 7px 7px 7px auto;
-}
-
-.img-bg .set .first, .about-img-bg .set .first, .img-bg-1-1 .set .first, .img-bg-2-1 .set .first, .img-bg-4-1 .set .first {
-  margin-left: 7px;
-}
-
-.img-bg .set .last, .about-img-bg .set .last, .img-bg-1-1 .set .last, .img-bg-2-1 .set .last, .img-bg-4-1 .set .last {
-  margin-left: 0px;
-}
-
-.img-bg .set img, .about-img-bg .set img, .img-bg-1-1 .set img, .img-bg-2-1 .set img, .img-bg-4-1 .set img {
-  width: 140px;
-}
-
-.img-bg .set img:hover, .about-img-bg .set img:hover, .img-bg-1-1 .set img:hover, .img-bg-2-1 .set img:hover, .img-bg-4-1 .set img:hover {
-  width: 106%;
+/* HOME IMAGE BACKGROUND */
+.home-img-bg {
+  max-width: 734px;
+  width: 80%;
   height: auto;
-  -webkit-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  margin: 4px auto;
+}
+
+.home-img-bg img {
+  max-width: 720px;
+  width: -webkit-calc(100% - 14px);
+  width: calc(100% - 14px);
+  height: auto;
+  margin: 7px;
+  padding: 0px;
 }
 
 /* ABOUT IMAGE BACKGROUND */
@@ -7984,37 +7968,71 @@ button.close {
   padding: 0px;
 }
 
-/* HELPER CLASSES FOR IMAGE BACKGROUNDS */
-.img-bg-1-1 {
+/* GALLERY SETTINGS */
+/* default gallery background settings */
+.gallery-img-bg, .gallery-img-bg-1, .gallery-img-bg-2, .gallery-img-bg-4 {
+  margin: 10px auto 10px auto;
+}
+
+.gallery-img-bg .thumb, .gallery-img-bg-1 .thumb, .gallery-img-bg-2 .thumb, .gallery-img-bg-4 .thumb {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  margin: 7px 7px 7px auto;
+}
+
+.gallery-img-bg .thumb img, .gallery-img-bg-1 .thumb img, .gallery-img-bg-2 .thumb img, .gallery-img-bg-4 .thumb img {
+  width: 140px;
+}
+
+.gallery-img-bg .thumb img:hover, .gallery-img-bg-1 .thumb img:hover, .gallery-img-bg-2 .thumb img:hover, .gallery-img-bg-4 .thumb img:hover {
+  width: 106%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.gallery-img-bg .first, .gallery-img-bg-1 .first, .gallery-img-bg-2 .first, .gallery-img-bg-4 .first {
+  margin-left: 7px;
+}
+
+.gallery-img-bg .last, .gallery-img-bg-1 .last, .gallery-img-bg-2 .last, .gallery-img-bg-4 .last {
+  margin-left: 0px;
+}
+
+/* column presets */
+.gallery-img-bg-1 {
   width: 154px;
   height: 154px;
 }
 
-.img-bg-2-1 {
+.gallery-img-bg-2 {
   width: 301px;
   height: 154px;
 }
 
-.img-bg-4-1 {
+.gallery-img-bg-4 {
   width: 595px;
   height: 154px;
 }
 
 @media (max-width: 768px) {
-  .img-bg-4-1 {
+  .gallery-img-bg-4 {
     width: 301px;
     height: 301px;
   }
-  .img-bg-4-1 .single:nth-child(1) {
+  .gallery-img-bg-4 .thumb:nth-child(1) {
     margin: 7px 7px 2px 7px;
   }
-  .img-bg-4-1 .single:nth-child(2) {
+  .gallery-img-bg-4 .thumb:nth-child(2) {
     margin: 7px 7px 2px 0px;
   }
-  .img-bg-4-1 .single:nth-child(3) {
+  .gallery-img-bg-4 .thumb:nth-child(3) {
     margin: 0px 7px 7px 7px;
   }
-  .img-bg-4-1 .single:nth-child(4) {
+  .gallery-img-bg-4 .thumb:nth-child(4) {
     margin: 0px 7px 7px 0px;
   }
 }
@@ -8050,6 +8068,7 @@ form label .form-label {
 }
 
 form label input, form label textarea {
+  color: #04171D;
   width: -webkit-calc(100% - 120px);
   width: calc(100% - 120px);
 }
@@ -8110,6 +8129,12 @@ html, body {
   text-align: center;
   padding: 10px;
   height: 50px;
+}
+
+/* fake link style for home page */
+#home-link {
+  color: #8A8E82;
+  text-decoration: underline;
 }
 
 /* GENERAL MEDIA QUERIES */
