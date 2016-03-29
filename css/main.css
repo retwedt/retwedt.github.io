@@ -8071,6 +8071,7 @@ form label input, form label textarea {
   color: #04171D;
   width: -webkit-calc(100% - 120px);
   width: calc(100% - 120px);
+  resize: vertical;
 }
 
 form #submit {
@@ -8078,20 +8079,20 @@ form #submit {
   margin-left: calc(100% - 54px);
 }
 
-.social-media {
+.professional-links {
   margin: 10px;
 }
 
-.social-media a {
+.professional-links a {
   text-decoration: none;
   margin: 2px;
 }
 
-.social-media a:first-child {
+.professional-links a:first-child {
   margin-left: 18px;
 }
 
-.social-media img:hover {
+.professional-links img:hover {
   opacity: 0.75;
   filter: alpha(opacity=75);
   /* For IE8 and earlier */
